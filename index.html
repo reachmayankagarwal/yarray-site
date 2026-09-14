@@ -3,21 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Yarray — AI software solutions &amp; services</title>
-<meta name="description" content="Yarray builds and integrates AI software for Australian businesses — AI strategy, custom applications, data engineering, evaluation, and ongoing support.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<title>YarraY — AI software solutions &amp; services</title>
+<meta name="description" content="YarraY builds and integrates AI software for Australian businesses — AI strategy, custom applications, data engineering, evaluation, and ongoing support.">
+<meta property="og:title" content="YarraY — AI software solutions &amp; services">
+<meta property="og:description" content="AI software built to run in production. Strategy, custom applications, data engineering, evaluation, and support for Australian businesses.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.yarray.com.au/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<a class="skip" href="#app">Skip to content</a>
+
 <header class="bar">
-  <a class="logo" href="#/">Yarray</a>
-  <nav id="nav"></nav>
+  <a class="logo" href="#/" aria-label="YarraY, home">
+    <svg class="mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M4.5 3 L12 9 L19.5 3" />
+      <path d="M4.5 21 L12 15 L19.5 21" />
+      <path d="M12 9 L12 15" />
+    </svg>
+    <span class="wordmark"><b>Y</b>arra<b>Y</b></span>
+  </a>
+  <nav id="nav" aria-label="Primary"></nav>
 </header>
-<main id="app" aria-live="polite"></main>
-<footer class="bar foot">
-  <span>&copy; <span id="year"></span> Yarray. Australia.</span>
-  <a href="mailto:hello@yarray.com.au">hello@yarray.com.au</a>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="foot">
+  <div class="foot-grid">
+    <div>
+      <span class="wordmark foot-mark"><b>Y</b>arra<b>Y</b></span>
+      <p class="foot-note">AI software solutions and services. Australian owned and operated.</p>
+    </div>
+    <nav id="foot-nav" aria-label="Footer"></nav>
+    <div>
+      <h2 class="foot-h">Contact</h2>
+      <p><a href="mailto:ma@yarray.com.au">ma@yarray.com.au</a></p>
+      <p class="foot-note">Remote across Australia, on site where it helps.</p>
+    </div>
+  </div>
+  <p class="foot-legal">&copy; <span id="year"></span> YarraY. All rights reserved.</p>
 </footer>
+
 <script type="module" src="app.js"></script>
 </body>
 </html>

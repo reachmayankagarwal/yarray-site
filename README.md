@@ -1,4 +1,4 @@
-# yarray.com.au
+# YarraY — yarray.com.au
 
 Static single-page site. No build step, no dependencies.
 
@@ -25,6 +25,6 @@ server rewrite rules.
 
 ## Before launch
 
-- Set a real contact email (currently `hello@yarray.com.au`).
-- Add a favicon and an OG image in `index.html`.
+- Contact email is `ma@yarray.com.au` (`CONTACT_EMAIL` in `content.js`, and the footer in `index.html`).
+- Add an OG share image (`og:image`) in `index.html`.
 - Point the `yarray.com.au` domain at the Vercel project.
