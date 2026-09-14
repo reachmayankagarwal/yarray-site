@@ -12,8 +12,7 @@ Or open `index.html` over a local server (ES modules need http://, not file://).
 
 ## Edit
 
-- **Copy** — `content.js`. Every string on the site lives there. All content is
-  currently `PLACEHOLDER:` text and must be replaced before launch.
+- **Copy** — `content.js`. Every string on the site lives there.
 - **Layout/markup** — `app.js` (`render` map: one function per block type).
 - **Styling** — `styles.css`.
 
@@ -26,6 +25,6 @@ server rewrite rules.
 
 ## Before launch
 
-- Replace all `PLACEHOLDER:` copy in `content.js`.
 - Set a real contact email (currently `hello@yarray.com.au`).
-- Add favicon, OG image, and a real `<meta name="description">` in `index.html`.
+- Add a favicon and an OG image in `index.html`.
+- Point the `yarray.com.au` domain at the Vercel project.
